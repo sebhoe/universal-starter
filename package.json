@@ -4,7 +4,7 @@
   "description": "Angular 2 Universal starter kit by @AngularClass",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular/universal-starter.git"
+    "url": "git+https://github.com/angular/universal-starter.git"
   },
   "scripts": {
     "postinstall": "typings install",
@@ -48,5 +48,15 @@
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.0",
     "webpack-merge": "^0.13.0"
-  }
+  },
+  "engines": {
+    "node": "6.0.0",
+    "npm": "3.8.6"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/universal-starter/issues"
+  },
+  "homepage": "https://github.com/angular/universal-starter#readme",
+  "main": "webpack.config.js",
+  "author": ""
 }
